@@ -31,13 +31,11 @@
 .header__menu,
 .header__menu-mobile {
     padding: 20px;
-
-    flex: 1.235;
+    flex: 1.15;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 64px;
-
     list-style: none;
 }
 
