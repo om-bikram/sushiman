@@ -30,67 +30,106 @@
     </header>
     <section class="hero">
       <div class="hero-image">
-        <img src="assets/sushi-1.png" alt="sushi" />
-        <h2>
-          寿<br />
-          司<br />
-          マ
+        <img src="assets/sushi-1.png" alt="sushi" data-aos="fade-up" />
+        <h2 data-aos="fade-up">
+          日 <br />
+          本 <br />
+          食
         </h2>
+
         <div class="hero-image__overlay"></div>
       </div>
+
       <div class="hero-content">
-        <div class="hero-content-info">
-          <h1>Feel the taste of Japanese food.</h1>
+        <div class="hero-content-info" data-aos="fade-left">
+          <h1>Feel the taste of Japanese food</h1>
           <p>
             Feel the taste of the most popular Japanese food from anywhere and
             anytime.
           </p>
+
           <div class="hero-content__buttons">
             <button class="hero-content__order-button">Order Now</button>
             <button class="hero-content__play-button">
-              <img src="assets/play-circle.svg" alt="play" />How to Order
+              <img src="assets/play-circle.svg" alt="play" />
+              How to Order
             </button>
           </div>
         </div>
-        <div class="hero-content__testimonial">
+
+        <div class="hero-content__testimonial" data-aos="fade-up">
           <div class="hero-content__customer flex-center">
-            <h4>24 <span>k+</span></h4>
-            <p>Happy Customer</p>
+            <h4>24<span>k+</span></h4>
+            <p>Happy Customers</p>
           </div>
+
           <div class="hero-content__review">
             <img src="assets/user.png" alt="user" />
             <p>
-              This is the best Japanese food delivery service that ever existed.
+              "This is the best Japanese food delivery service that ever
+              existed."
             </p>
           </div>
         </div>
       </div>
     </section>
+
     <section class="about-us" id="about-us">
       <div class="about-us__image">
         <div class="about-us__image-sushi3">
-          <img src="assets/sushi-3.png" alt="sushi" />
+          <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
         </div>
+
         <button class="about-us__button">
           Learn More
+
           <img src="assets/arrow-up-right.svg" alt="learn more" />
         </button>
+
         <div class="about-us__image-sushi2">
-          <img src="assets/sushi-2.png" alt="sushi" />
+          <img src="assets/sushi-2.png" alt="sushi" data-aos="fade-right" />
         </div>
       </div>
-      <div class="about-us__content">
-        <p class="sushi__subtitle">About Us / 私たちについて</p>
+
+      <div class="about-us__content" data-aos="fade-left">
+        <p class="sushi__subtitle">About Us / 私たちに関しては</p>
         <h3 class="sushi__title">
-          Our mission is to bring true Japanese Flavours to you.
+          Our mission is to bring true Japanese flavours to you.
         </h3>
         <p class="sushi__description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos
-          similique labore porro alias natus nobis quas laudantium facilis fuga
-          dolor nihil minus quis ipsa, nostrum pariatur facere commodi nesciunt
-          quibusdam?
+          We will continue to provide the experience of Omotenashi, the Japanese
+          mindset of hospitality, with our shopping and dining for our
+          customers.
         </p>
       </div>
+    </section>
+
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title">Popular Food / 人気の食べ物</h2>
+      <div class="popular-foods__filters sushi__hide-scrollbar">
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+          Sushi
+          <img src="/assets/sushi-9.png" alt="sushi" />
+        </button>
+        <button class="popular-foods__filter-btn">
+          Ramen
+          <img src="/assets/sushi-8.png" alt="Ramen" />
+        </button>
+        <button class="popular-foods__filter-btn">
+          Udon
+          <img src="/assets/sushi-7.png" alt="Udon" />
+        </button>
+        <button class="popular-foods__filter-btn">
+          Danggo
+          <img src="/assets/sushi-6.png" alt="Danggo" />
+        </button>
+      </div>
+      <div class="popular-foods__catalogue"></div>
+      <button class="popular-foods__catalogue">
+        Explore Foods
+        <img src="assets/arrow-right.svg" alt="arrow right" />
+      </button>
     </section>
     <script type="module" src="js/script.js"></script>
   </body>
